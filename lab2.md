@@ -16,6 +16,10 @@ Add-message calls:
 
 Part 2:
 
-![image](https://github.com/joasheng/cse15l-lab-reports/assets/125727125/9ffd3103-453e-482d-9b43-155adcd6c0ff)
-![image](https://github.com/joasheng/cse15l-lab-reports/assets/125727125/d81a7646-72a3-4e16-a5a8-cb11b1d55bb7)
+Private and public key paths:
+![image](https://github.com/joasheng/cse15l-lab-reports/assets/125727125/8b3d6d80-8161-4543-a2f1-29597d2fb8b4)
+Logging in without ssh:
+![image](https://github.com/joasheng/cse15l-lab-reports/assets/125727125/b7bc97b4-6371-4c4d-b9c9-b21285126a4f)
 
+Part 3:
+Honestly, I had not encountered any of the information from these labs prior to doing them; everything has been new to me. If I had to pick one interesting thing I learned, it was how to deploy a local web server just by using Java and a terminal; I had no idea it was that easy to get something online like that.
