@@ -16,8 +16,13 @@ Add-message calls:
 
 Part 2:
 
-Private and public key paths:
-![image](https://github.com/joasheng/cse15l-lab-reports/assets/125727125/8b3d6d80-8161-4543-a2f1-29597d2fb8b4)
+Private path: ![image](https://github.com/joasheng/cse15l-lab-reports/assets/125727125/32a0facc-991f-4591-ad3c-f33e00f1fd20)
+
+Here, you can see that the path is C:\Users\jiash\.ssh\id_rsa, as when I run the command it returns the directory the key is in and its position within the directory, along with some other details about the file. This additional information is due to the fact that I am on a windows PowerShell terminal, which does not display only the filename when using ls (unlike linux terminals).  
+
+Public path: ![image](https://github.com/joasheng/cse15l-lab-reports/assets/125727125/5b514d58-117f-4546-9e5c-b540f642e49f)
+Here, I am in the .ssh directory within my ieng6 account. Using ls /home/linux/ieng6/cs15lfa23/cs15lfa23rw/.ssh/authorized_keys, I can show that the file does in fact exist within the directory, as it returns the filepath back to me.
+
 Logging in without ssh:
 ![image](https://github.com/joasheng/cse15l-lab-reports/assets/125727125/b7bc97b4-6371-4c4d-b9c9-b21285126a4f)
 
