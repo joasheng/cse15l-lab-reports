@@ -175,3 +175,5 @@ $ find ./technical/government/Post_Rate_Comm -iname "*cohenetal*"
 ./technical/government/Post_Rate_Comm/CoHeNeTaL_Scale.txt
 ```
 Here, the word cohenetal has been replaced with a variety of cases, but they are all returned due to the option.
+
+For each one, I used the source: https://www.redhat.com/sysadmin/linux-find-command
