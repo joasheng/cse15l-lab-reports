@@ -26,7 +26,7 @@ Step 7:
 ![image](https://github.com/joasheng/cse15l-lab-reports/assets/125727125/549e25d8-279d-492a-8edf-e8ade5774c76)
 ``
 vim ListExamples.java <enter>  
-<down> <down> <down> <down> <down> <e> 2 <delete>   
+<downArrow> <downArrow> <downArrow> <downArrow> <downArrow> <e> 2 <delete>   
 <esc> :wq <enter>
 ``
 First I used vim followed by the file to enter vim from the command line. When I opened the editor, my cursor was 5 lines above where it was supposed to be, so I just pressed the down arrow key 5 times to get to the right line, and then pressed E to go to the end of the word (which was index1). I then switched to insert mode by pressing I and switched the 1 to a 2. Finally, I pressed Escape to leave Insert Mode and then typed in :wq to save and quit.
