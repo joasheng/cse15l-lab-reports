@@ -1,3 +1,5 @@
+Lab Report 4
+
 Step 4:
 ![image](https://github.com/joasheng/cse15l-lab-reports/assets/125727125/beeb6fbd-915e-47ad-8a76-ed8e01276a0d)
 ```
