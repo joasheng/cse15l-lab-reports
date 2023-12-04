@@ -1,8 +1,10 @@
 Lab Report 5
 
-Part 1: Debugging Scenario
+Part 1: Debugging Scenario  
 
-#1. Student Post:
+
+#1. Student Post:  
+
 Hi, I am currently attempting working on implementing a merge method for mergeSort, but the method keeps failing the test I wrote. I'm not sure what I did wrong, so I would love some help on fixing this bug. Here is what I've written so far:
 My code:
 ![image](https://github.com/joasheng/cse15l-lab-reports/assets/125727125/00eebad1-d604-4056-b96d-6678dc6a4225)
@@ -13,12 +15,18 @@ The commands I ran and the output:
 
 If I had to guess what the bug was for the code, I would assume there was something off about how I'm iterating through the arrays, as the code runs for a long time before finally producing the error and the symptom itself says that the heap ran out of memory. However, I'm really struggling to identify the issue.
 Thanks,
-Confused Student
-#2. TA response:
-Hi Confused, your guess at what might be the issue is mostly correct. To start, consider going back and reviewing how the merge part of mergeSort works. In your implementation, you're comparing elements in one list to another with pointers going through each list until one pointer has traversed through the whole array. Then, you add in all the remaining elements of the not fully traversed array. To fix your code, I'd recommend double checking that all of your index variables are being incremented at the right positions, since if one is not being incremented when it should be, it could form arrayLists way larger or smaller than intended. Consider tracing your code carefully, and seeing if you end up stuck. Good luck on writing your code!
-Thanks,
-Tea Ay
-#3. Student Attempt:
+Confused Student  
+
+#2. TA response:  
+
+Hi Confused, your guess at what might be the issue is mostly correct. To start, consider going back and reviewing how the merge part of mergeSort works. In your implementation, you're comparing elements in one list to another with pointers going through each list until one pointer has traversed through the whole array. Then, you add in all the remaining elements of the not fully traversed array. To fix your code, I'd recommend double checking that all of your index variables are being incremented at the right positions, since if one is not being incremented when it should be, it could form arrayLists way larger or smaller than intended. Consider tracing your code carefully, and seeing if you end up stuck. Good luck on writing your code!  
+
+Thanks,  
+
+Tea Ay  
+
+#3. Student Attempt:  
+
 After reviewing what the TA had said and tracing their code, the student realized that they had used the wrong index in the final part of his method, having used index1 instead of index2. After trying out their new code, they discovered that they had another bug, this time due to his test; the test was outputting the memory address of the array instead of its contents, and student added in a call to Arrays.toString() to fix this as well. Here was their final result:
 Code:
 ![image](https://github.com/joasheng/cse15l-lab-reports/assets/125727125/21eca28b-7dbf-4930-91a6-a12ef8593407)
@@ -26,7 +34,8 @@ Test:
 ![image](https://github.com/joasheng/cse15l-lab-reports/assets/125727125/dd0b3f0e-44cb-48c5-8439-47f60ced820f)
 Output:
 ![image](https://github.com/joasheng/cse15l-lab-reports/assets/125727125/0e1b1d4a-26dc-4603-a73a-5a1666dfa7f0)
-#4. Final setup:
+#4. Final setup:  
+
 Directory:
 ```
 Lab Report 5/
